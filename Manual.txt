@@ -1,0 +1,28 @@
+-MATLAB
+
+cartpend.m:
+
+LQR full state feedback controller and kalman filter for full state estimation,
+Visualization of the cart and pendulum' expected movements and graphs with the value of the outputs; 
+
+
+derivatives.m:
+
+system of ODE's of the inverted pendulum and car system;
+
+
+drawcart.m:
+
+visual demonstration of the inverted pendulum on the car. 
+
+
+-SIMULINK
+
+cartpend.slx + INIT.m: 
+
+script to allow for imediate run of the LQR simulink model and said model;
+
+
+cartpendkalman.slx + INITKF.m:
+
+script to allow for imediate run of the LQG (LQR + KF) simulink model and said model.
